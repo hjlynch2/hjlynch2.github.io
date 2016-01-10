@@ -1,0 +1,184 @@
+body{
+    font-family: 'Gill Sans';
+    text-align:center;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #474747;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+#main{
+    position:absolute;
+    left:0;
+    right:0;
+    top: 220px;
+    margin: auto;
+    width: 500px;
+    height: 115px;
+}
+
+#name{
+    font-weight: bold;
+    font-size: 58px;
+}
+
+.quote{
+    font-size: 18px;
+    text-align:left;
+    color: black;
+}
+
+#quote1{
+  position:relative;
+  top:40px;
+  left:60px;
+}
+
+#quote2{
+  position:relative;
+  top: 400px;
+  left: 800px;
+}
+
+#quote3{
+  position:relative;
+  top: 120px;
+  left: 650px;
+}
+
+#quote4{
+  position:relative;
+  top: 450px;
+  left: 140px;
+}
+
+#quote5{
+  position:relative;
+  top: 50px;
+  left: 400px;
+}
+
+#quote6{
+  position:relative;
+  top: 300px;
+  left: 20px;
+}
+
+#quote7{
+  position:relative;
+  top: 50px;
+  left: 800px;
+}
+
+#contactbox{
+  position:absolute;
+  margin:auto;
+  left:0;
+  right:0;
+  height: 448px;
+  width:400px;
+  top: 70px;
+  background-color:pink;
+}
+
+#face{
+  position:absolute;
+  left:0;
+  right: 0;
+}
+
+#hi{
+  position:absolute;
+  left:0;
+  right: 0;
+}
+
+#facebook{
+  position:absolute;
+  height: 80px;
+  width:260px;
+  margin:auto;
+  left:0;
+  right:0;
+}
+
+#github{
+  position: absolute;
+  left:0;
+  right:0;
+  height: 80px;
+  width:210px;
+  margin: auto;
+}
+
+
+#linkedin{
+  position:absolute;
+  left:0;
+  right:0;
+  height: 90px;
+  width: 290px;
+  margin: auto;
+}
+
+#contactme{
+  position:absolute;
+  left:0;
+  right:0;
+  top: 210px;
+  margin: auto;
+  width: 400px;
+  height: 115px;
+}
+
+#ft{
+
+}
+
+#gt{
+  position:relative;
+  top:40px;
+}
+
+#lt{
+  position:relative;
+  top:80px;
+}
+
+#fb{
+  font-size: 24px;
+}
+
+#fb:hover{
+  color:#00006B;
+}
+
+#gh{
+  font-size:24px;
+}
+
+#gh:hover{
+  color:#00006B
+}
+
+#li{
+  font-size:24px;
+}
+
+#li:hover{
+  color:#00006B
+}
