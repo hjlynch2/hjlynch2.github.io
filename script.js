@@ -1,9 +1,0 @@
-$(document).ready(function(){
-      $('#quote1').hide().delay(500).fadeIn('slow').delay(3500).fadeOut('slow');
-      $('#quote2').hide().delay(5000).fadeIn('slow').delay(3500).fadeOut('slow');
-      $('#quote3').hide().delay(10000).fadeIn('slow').delay(3500).fadeOut('slow');
-      $('#quote4').hide().delay(15000).fadeIn('slow').delay(3500).fadeOut('slow');
-      $('#quote5').hide().delay(20000).fadeIn('slow').delay(3500).fadeOut('slow');
-      $('#quote6').hide().delay(25000).fadeIn('slow').delay(3500).fadeOut('slow');
-      $('#quote7').hide().delay(30000).fadeIn('slow').delay(3500).fadeOut('slow');
-});
