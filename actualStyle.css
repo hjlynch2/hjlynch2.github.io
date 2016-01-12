@@ -1,5 +1,5 @@
 body{
-    font-family:  ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    font-family: Gill Sans / Gill Sans MT, sans-serif;
     text-align:center;
     font-weight: 300;
 }
@@ -39,7 +39,7 @@ body{
 
 #name{
     font-weight: 400;
-    font-size: 58px;
+    font-size: 70px;
 }
 
 #project_pane{
@@ -47,7 +47,7 @@ body{
   left:0;
   right:0;
   margin: auto;
-  top: 240px;
+  top: 260px;
   width: 500px;
   text-align: left;
   color: #474747;
