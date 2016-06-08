@@ -378,7 +378,7 @@ body {
   left: -50%; 
   width: 200%; 
   height: 200%;
-  z-index: -1;
+  z-index: -1
 }
 #bg img {
   position: absolute; 
@@ -391,10 +391,15 @@ body {
   min-height: 50%;
 }
 
+.bio {
+    line-height: 100%;
+}
+
 .custom-links {
     font-size: 1.8em;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .my-name {
+    line-height: 30%;
 }
