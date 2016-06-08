@@ -147,12 +147,6 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/uiuc.jpg) no-repeat bottom center scroll;
-    background-color: #c299ff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 .intro .intro-body {
@@ -166,6 +160,7 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 @media(min-width:768px) {
@@ -377,8 +372,28 @@ body {
 
 
 /* My CSS is below */
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
 .custom-links {
     font-size: 1.8em;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .my-name {
