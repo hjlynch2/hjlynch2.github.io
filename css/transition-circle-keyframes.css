@@ -1,0 +1,20 @@
+.rocket {
+    
+    /* 
+     * Make the initial position to be the center of the circle you want this
+     * object follow.
+     */
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    animation: orbit 15s linear infinite;
+    z-index: 3;
+}
+
+/* Note that the second rotate in each of the transforms below has been removed */
+@keyframes orbit {
+    from {  transform: rotate(360deg) translateX(250px); }
+    to   {  transform: rotate(0deg) translateX(250px); }
+}

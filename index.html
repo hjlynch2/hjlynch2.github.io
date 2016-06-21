@@ -9,6 +9,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <meta charset="utf-8" />
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    Remove this if you use the .htaccess -->
+    <link rel="stylesheet" href="http://www.useragentman.com/shared/css/useragentmanExample.css" />
+    <link rel="stylesheet" href="css/transition-circle-keyframes.css" />
+    
+    <!-- IE doesn't do CSS3 Animations, so let's put in some JS code to fix. -->
+    
+    <!--[if lte IE 9 ]> 
+    <script type="text/javascript" src="/shared/js/jquery-1.7.2.min.js"></script>    
+    <script type="text/javascript" src="js/transition-circle-ie.js"></script>    
+    <![endif]-->
+
     <title>Harris Lynch</title>
 
     <!-- Bootstrap Core CSS -->
@@ -34,11 +47,12 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <div id="bg"><img src="img/uiuc.jpg" alt=""></div>
     <!-- Intro Header -->
-    <header class="intro">
+    <header class="intro" id = "field">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
                     <h1 class="brand-heading my-name">Harris Lynch</h1>
+                    <img class="rocket" src="img/rocket.svg" width="50" height="auto"/>
                     <p class="intro-text bio"><br>University of Illinois Computer Science Student<br></p>
                     <div class="row">
                         <ul class="list-inline">
